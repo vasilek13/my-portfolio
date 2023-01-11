@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.191922bc.css",
+    "main.js": "/my-portfolio/static/js/main.f3d62049.js",
+    "static/media/woodhouse.png": "/my-portfolio/static/media/woodhouse.0760aa4799f8dfc29a51.png",
+    "static/media/cloverly.png": "/my-portfolio/static/media/cloverly.abfe08f24122f5df4a3e.png",
+    "static/media/helthcare.png": "/my-portfolio/static/media/helthcare.65bb4fab95af40bf041b.png",
+    "static/media/react.svg": "/my-portfolio/static/media/react.a02fae63e4161897dd2f8c544e4ae8ea.svg",
+    "static/media/sass.svg": "/my-portfolio/static/media/sass.0b2d037490ad6f77d53d84cad1a2c015.svg",
+    "static/media/sql.svg": "/my-portfolio/static/media/sql.b5af8cf3cfdd1a26a74e79b63088fcf2.svg",
+    "static/media/icomoon.svg?l79q77": "/my-portfolio/static/media/icomoon.df42fadf38a497129932.svg",
+    "static/media/icomoon.eot?l79q77": "/my-portfolio/static/media/icomoon.c04a7a3e206f5d14535a.eot",
+    "static/media/icomoon.woff?l79q77": "/my-portfolio/static/media/icomoon.4d63e71506cc8474d64a.woff",
+    "static/media/icomoon.ttf?l79q77": "/my-portfolio/static/media/icomoon.d006a323ce4a5eab6c4b.ttf",
+    "static/media/js.svg": "/my-portfolio/static/media/js.faf435e4321b3cbaca7686f0ca9333e4.svg",
+    "static/media/tilda.svg": "/my-portfolio/static/media/tilda.543603f4b32afb9c00089025e5976e5f.svg",
+    "static/media/typescript.svg": "/my-portfolio/static/media/typescript.19d924eb3ca6a2706ebaca7a45de11ac.svg",
+    "static/media/css.svg": "/my-portfolio/static/media/css.8b0f976f8d39f1abdbb2b54bbf9391c8.svg",
+    "static/media/figma.svg": "/my-portfolio/static/media/figma.654e39080367ee8e32abd5ca1eb40571.svg",
+    "static/media/html.svg": "/my-portfolio/static/media/html.58e0b1c8bcdc29a1505b6001681d814b.svg",
+    "index.html": "/my-portfolio/index.html",
+    "main.191922bc.css.map": "/my-portfolio/static/css/main.191922bc.css.map",
+    "main.f3d62049.js.map": "/my-portfolio/static/js/main.f3d62049.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.191922bc.css",
+    "static/js/main.f3d62049.js"
+  ]
+}
