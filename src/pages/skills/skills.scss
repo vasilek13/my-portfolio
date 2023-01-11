@@ -1,0 +1,7 @@
+.my_skills{
+    &__cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}

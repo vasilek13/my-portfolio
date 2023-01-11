@@ -1,0 +1,41 @@
+
+.card_skills{
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(180deg, #171A1B 0%, rgba(23, 26, 27, 0) 100%);
+    border-radius: 15px 15px 0px 0px;
+    margin-bottom: 50px;
+    &__top{
+        display: flex;
+        gap: 6px;
+        padding: 11px 0 0 24px;
+        .circle{
+            width: 8px;
+            height: 8px;
+            border-radius: 10px;
+        }
+        .circle:first-child{
+            background-color: #FF5F56;
+        }
+        .circle:nth-child(2){
+            background-color: #FFBD2E;
+        }
+        .circle:last-child{
+            background-color: #27C93F;
+        }
+    }
+    &__main_in{
+        margin-top: 40px;
+        h3{
+            font-family: 'Nunito Sans', sans-serif;
+            color: white;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        img{
+            display: block;
+            margin: auto;
+        }
+    }
+}

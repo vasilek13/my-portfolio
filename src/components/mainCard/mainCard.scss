@@ -1,0 +1,113 @@
+.main_card{
+    float: right;
+    margin-top: 80px;
+    background: #171A1B;
+    opacity: 0.8;
+    border: 1px solid #4A4A4A;
+    border-radius: 15px 15px 0px 0px;
+    width: 862px;
+    height: 500px;
+    overflow: hidden;
+    &__top{
+        display: flex;
+        .top_circles{
+            display: flex;
+            gap: 8px;
+            padding: 11px 0 0 40px;
+            .main_circle{
+                width: 8px;
+                height: 8px;
+                border-radius: 10px;
+                color: aqua;
+            }
+            .main_circle:first-child{
+                background-color: #FF5F56;
+            }
+            .main_circle:nth-child(2){
+                background-color: #FFBD2E;
+            }
+            .main_circle:last-child{
+                background-color: #27C93F;
+            }
+        }
+        .top_name{
+            background: #202226;
+            opacity: 0.9;
+            border-radius: 15px;
+            color: white;
+            font-family: 'Fira Sans', sans-serif;
+            font-weight: 400;
+            font-size: 10px;
+            padding: 2px 121px;
+            margin: 0 auto;
+            margin-top: 8px;
+        }
+    }
+    .code_print{
+        margin: 106px 0 0 106px;
+        color: white;
+        font-family: 'Fira Sans';
+        font-weight: 400;
+        font-size: 16px;
+        /*.first{
+            margin-bottom: 20px;
+        }
+        .print{
+            font-family: 'Fira Sans';
+            .print_line{
+                color: white;
+                font-family: monospace;
+                font-weight: 400;
+                font-size: 16px;
+    
+                position: relative;
+                //width: 21ch;
+                border-right: 2px solid rgba(255,255,255,.75);
+                white-space: nowrap;
+                overflow: hidden;
+                transform: translateY(-50%); 
+                span{
+                    color: #948715;
+                }
+            }
+            .print_line:nth-child(1){
+                color: #FF5F56;
+                width: 8ch;
+                animation: typewriter1 1s steps(8) 1s 1 normal both,
+                blinkTextCursor 0.75s step-end infinite;
+            }
+            .print_line:nth-child(2){
+                width: 21ch;
+                animation: typewriter2 4s steps(21) 1s 1 normal both,
+                           blinkTextCursor 0.75s step-end infinite;
+            }
+            .print_line:nth-child(3){
+                width: 19ch;
+                animation: typewriter3 7s steps(19) 1s 1 normal both,
+                           blinkTextCursor 0.75s step-end infinite;
+            }
+        }*/
+    }
+}
+
+@keyframes typewriter1{
+    from{width: 0;}
+    to{width: 8ch;}
+}
+@keyframes typewriter2{
+    0% {width: 0; border: none;}
+    1% {width: 0;}
+    50% {width: 0;}
+    100% {width: 21ch;}
+}
+/*@keyframes typewriter3{
+    0% {width: 0; border: none;}
+    1% {width: 0;}
+    50% {width: 0;}
+    100% {width: 19ch;}
+}*/
+@keyframes blinkTextCursor{
+    0% {border-right-color: #FF5F56;}
+    50% {border-right-color: transparent;}
+    100% {border-right-color: #FF5F56;}
+}

@@ -1,0 +1,30 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    ul{
+        display: flex;
+    }
+    &__menu{
+        gap: 60px;
+        .menu_link{
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            color: white;
+        }
+        li:hover{
+            cursor: pointer;
+            text-shadow: 0 0 25px white/*#948715*/;
+        }
+    }
+    &__seti{
+        gap: 30px;
+        span{
+            color: white;
+            font-size: 250%;
+            &:hover{
+                cursor: pointer;
+                text-shadow:  0 0 15px #948715;
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+.contact_page{
+    .heading_main{
+        text-align: center;
+    }
+    .heading_form{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 36px;
+        color: white;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .contacts{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .input_form{
+            .input_btn{
+                color: white;
+                background-color: #948716;
+                border-radius: 30px;
+                font-weight: 400;
+                font-size: 28px;
+                font-family: 'Fira Sans', sans-serif;
+                padding: 10px 83px;
+                text-transform: uppercase;
+                margin-top: 27px;
+                border: 3px solid #948716;
+                &:hover{
+                    background-color: transparent;
+                    cursor: pointer;
+                }
+            }
+        }
+        .form_seti{
+            font-family: 'Poppins', sans-serif;
+            .img_seti{
+                margin-top: 100px;
+                margin-bottom: 74px;
+                span{
+                    color: white;
+                    font-size: 550%;
+                    margin: 0 24px;
+                    &:hover{
+                        cursor: pointer;
+                        text-shadow:  0 0 15px #948715;
+                    }
+                }
+            }
+            .seti_email{
+                color: #948716;
+                font-weight: 400;
+                font-size: 36px;
+                text-align: center;
+            }
+        }
+    }
+}

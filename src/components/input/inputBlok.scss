@@ -1,0 +1,23 @@
+.input_blok{
+    background: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    //box-shadow: none;
+    text-transform: uppercase;
+    width: 562px;
+    font-weight: 300;
+    font-size: 32px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 27px 0;
+
+    &::placeholder{
+        color: white;
+        text-transform: uppercase;
+    }
+
+    &::focus{
+        //outline: none;
+        box-shadow: 0 0 0 5px white;
+    }
+}
